@@ -1,7 +1,9 @@
 # ls colors
 autoload colors; colors;
 export LSCOLORS="gxfxbEaEBxxEhEhBaDaCaD"
-#export LS_COLORS
+#BSD/OSX Version
+#export LS_COLORS="di=36;40:ln=35;40:so=31;:pi=0;:ex=1;;40:bd=0;:cd=37;:su=37;:sg=0;:tw=0;:ow=0;:"
+#Linux Version
 
 # Enable ls colors
 if [ "$DISABLE_LS_COLORS" != "true" ]

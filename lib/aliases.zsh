@@ -2,9 +2,7 @@
 alias pu='pushd'
 alias po='popd'
 
-# Basic directory operations
-alias ...='cd ../..'
-alias -- -='cd -'
+# Basic directory operations in directories.zsh
 
 # Super user
 alias _='sudo'
@@ -16,10 +14,8 @@ alias please='sudo'
 alias history='fc -l 1'
 
 # List direcory contents
-alias lsa='ls -lah'
 alias l='ls -la'
-alias ll='ls -l'
-alias la='ls -lA'
+alias ll='ls -halFG'
 alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
