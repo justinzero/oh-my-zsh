@@ -20,3 +20,9 @@ alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
 
+# Pipe my public key to my clipboard. Fuck you, pay me. (Stolen from @holman)
+alias pubkey="more ~/.ssh/id_dsa.public | pbcopy | echo '=> Public key copied to pasteboard.'"
+
+#Reload zsh
+alias reload!='. ~/.zshrc'
+
