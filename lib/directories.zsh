@@ -11,6 +11,11 @@ alias cd....='cd ../../..'
 alias cd.....='cd ../../../..'
 alias cd/='cd /'
 
+alias db='cd ~/Dropbox'
+alias dl='cd ~/Downloads'
+alias dt='cd ~/Desktop'
+
+
 alias 1='cd -'
 alias 2='cd -2'
 alias 3='cd -3'
