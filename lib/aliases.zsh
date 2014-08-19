@@ -1,3 +1,10 @@
+
+#CodeKit
+alias ck='/Applications/CodeKit.app/Contents/MacOS/CodeKit'
+
+# AMPPS Stack
+alias ampps='/Applications/AMPPS/Ampps.app/Contents/MacOS/Ampps'
+
 # Push and pop directories on directory stack
 alias pu='pushd'
 alias po='popd'
