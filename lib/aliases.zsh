@@ -1,3 +1,5 @@
+#Bluehost login with ZSH shell
+alias bluehost='ssh bluehost -t zsh'
 
 #CodeKit
 alias ck='/Applications/CodeKit.app/Contents/MacOS/CodeKit'
